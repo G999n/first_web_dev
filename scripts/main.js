@@ -1,4 +1,9 @@
 const myImage = document.querySelector("img");
+const wow = document.querySelector("html");
+
+wow.onclick = () => {
+    alert("Ouch Stop poking me!");
+};
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
